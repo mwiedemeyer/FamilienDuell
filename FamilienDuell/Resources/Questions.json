@@ -1,0 +1,38 @@
+﻿{
+    "Questions": [
+        {
+            "Text": "Nennen Sie ein Haustier",
+            "Multiplier": 1,
+            "A1": { "Text": "Hund", "Points": 66 },
+            "A2": { "Text": "Katze", "Points": 24 },
+            "A3": { "Text": "Maus", "Points": 10 },
+            "A4": { "Text": "Schwein", "Points": 5 },
+            "A5": { "Text": "Rind", "Points": 3 },
+            "A6": { "Text": "Hamster", "Points": 1 }
+        },
+        {
+            "Text": "Nennen Sie etwas, was man essen kann",
+            "Multiplier": 1,
+            "A1": { "Text": "Eis", "Points": 23 },
+            "A2": { "Text": "Sahne", "Points": 23 },
+            "A3": { "Text": "Eier", "Points": 23 },
+            "A4": { "Text": "Schokolade", "Points": 23 },
+            "A5": { "Text": "Birne", "Points": 23 }
+        },
+        {
+            "Text": "Nennen Sie ein Gericht",
+            "Multiplier": 2,
+            "A1": { "Text": "Spaghetti", "Points": 29 },
+            "A2": { "Text": "Suppe", "Points": 27 },
+            "A3": { "Text": "Steak", "Points": 12 },
+            "A4": { "Text": "Senf", "Points": 8 }
+        },
+        {
+            "Text": "Die letzte Frage",
+            "Multiplier": 3,
+            "A1": { "Text": "xxx", "Points": 23 },
+            "A2": { "Text": "xxx", "Points": 12 },
+            "A3": { "Text": "xxx", "Points": 3 }
+        }
+    ]
+}
