@@ -261,6 +261,8 @@ namespace FamilienDuell
 
         public void StartNextRound()
         {
+            IsBuzzerAllowed = false;
+
             if (_questions == null)
             {
                 var fileContent = System.IO.File.ReadAllText("Resources\\Questions.json");
@@ -280,13 +282,12 @@ namespace FamilienDuell
             CurrentQuestion = _questions.Questions[Round];
             Round = Round + 1;
             QuestionViewModel = new QuestionViewModel(CurrentQuestion.AvailableAnswers);
-
-            IsBuzzerAllowed = true;
         }
 
         public void ShowQuestion()
         {
             QuestionViewModel.QuestionText = CurrentQuestion.Text;
+            IsBuzzerAllowed = true;
         }
 
         public void ShowAllAnswers()
